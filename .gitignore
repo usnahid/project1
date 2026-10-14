@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.env.local
+
+# Build outputs
+dist/
+build/
+.oxlintrc.json
+*.tsbuildinfo
+
+# Database & Runtime logs
+roadguard.db
+roadguard.db-wal
+roadguard.db-shm
+*.log
+
+# Temp upload files (keep sample images)
+backend/uploads/temp_*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
